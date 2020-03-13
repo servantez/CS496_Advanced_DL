@@ -32,7 +32,7 @@ Ensemble adversarial training decreases the magnitude of gradient masking by tra
 
 ### Random FGSM
 
-placeholder
+Random FGSM is a new attack method which prepends a small step in a random direction before performing traditional FGSM. This random step is meant to escape the sharp curvatures near the data point in order to obtain a more accurate linear approximation of the model’s loss. The results below show that Random FGSM outperforms traditional FGSM for three out of four of the tested models (the fourth model was a tie). Random FGSM was able to increase the error rate of Model D by a factor of two.
 
 ![Adversarial Attack Results](./figures/Adversarial_Attack.png)
 
