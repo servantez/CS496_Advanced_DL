@@ -5,5 +5,5 @@ WORKDIR /usr/src/ensemble-adv-training-master
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-
-CMD ["python3", "/src/main.py"]
+COPY . /usr/src/ensemble-adv-training-master
+CMD ["python", "./main.py"]
