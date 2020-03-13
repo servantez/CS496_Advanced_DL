@@ -6,7 +6,7 @@ Deep learning models can be vulnerable to maliciously perturbed inputs known as 
 
 ## Input and Output
 
-Input: a clean image (e.g. original MNIST image).
+Input: a clean image (e.g. original MNIST image).  
 Output: a perturbed image (e.g. adversarial MNIST image).
 
 ## Deliverables
