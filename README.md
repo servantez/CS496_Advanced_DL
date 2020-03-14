@@ -38,7 +38,7 @@ Random FGSM is a new attack method which prepends a small step in a random direc
 
 ### Optimizing Alpha
 
-placeholder
+Alpha represents the length of the random step in Random FGSM. This length needs to be sufficient to escape the sharp curvatures near the data point, but not so long that it unnecessarily shortens the length of the FGSM step. This project explores whether the optimal value of alpha is a constant or varies across models. The graph below shows how the value of alpha affects the error rate of the attack. We can clearly observe that there is no value for alpha which optimizes the error rate for all models. That is to say, the optimal value of alpha varies across models.
 
 ![Optimizing Alpha](./figures/Error_vs_Alpha.png)
 
