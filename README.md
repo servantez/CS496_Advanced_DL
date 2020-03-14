@@ -61,4 +61,30 @@ docker run servantez/ensemble:1.0
 
 Note: this section is unnecessary if the project was run using the Docker image from option 1.
 
+### 1. Clone repo and enter it
+```
+git clone https://github.com/servantez/CS496_Advanced_DL.git
+cd CS496_Advanced_DL/
+```
+### 2. Create virtual environment and activate it
+```
+conda create -n ensemble python=2.7
+conda activate ensemble
+```
+### 3. Install all requirements
+```
+pip install -r requirements.txt
+```
+### 4. Train all models
+```
+python train_script.py
+```
+### 5. Test all trained models
+```
+python test_script.py
+```
+### 6. Test optimal alpha
+```
+python alpha_script.py
+```
 
