@@ -76,7 +76,7 @@ conda activate ensemble
 pip install -r requirements.txt
 ```
 ### 4. Train all models
-Note: this project involved training and testing many models. To improve reproducibility, scripts have been provided to automate training and testing. See the Deliverables section above for more information.  
+Note: this project involves training and testing many models. To improve reproducibility, scripts have been provided to automate training and testing. See the Deliverables section above for more information.  
 This training script trains all models, including undefended, adversarial and ensemble trained models.
 ```
 python train_script.py
