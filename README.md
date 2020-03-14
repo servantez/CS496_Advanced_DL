@@ -82,12 +82,12 @@ This training script trains all models, including undefended, adversarial and en
 python train_script.py
 ```
 ### 5. Test all trained models
-This testing script reproduces all experiment results for figures 1 and 2 above.
+This testing script reproduces all experiment results, including those for figures 1 and 2 above.
 ```
 python test_script.py
 ```
 ### 6. Test optimal alpha
-This testing script reproduces all experiment results for figure 3 above.
+This testing script reproduces experiment results for figure 3 above.
 ```
 python alpha_script.py
 ```
