@@ -88,3 +88,7 @@ python test_script.py
 python alpha_script.py
 ```
 
+## References
+* [Ensemble Adversarial Training paper](https://arxiv.org/abs/1705.07204)
+* [Ensemble Adversarial Training implementation](https://github.com/ftramer/ensemble-adv-training)
+
