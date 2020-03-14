@@ -42,4 +42,23 @@ Alpha represents the length of the random step in Random FGSM. This length needs
 
 ![Optimizing Alpha](./figures/Error_vs_Alpha.png)
 
+## Run Project (2 options)
+
+This project has been containerized with Docker to make running extremely easy. The Docker image performs all necessary actions, including training all models and reproducing all experiment results. The Docker image was verified to run correctly by pulling down the image from Docker Hub and running successfully on a separate machine.
+
+### Option 1 - Run with Docker (highly recommended):
+
+### 1. Pull down Docker image
+```
+docker pull servantez/ensemble:1.0
+```
+### 2. Run Docker image
+```
+docker run servantez/ensemble:1.0
+```
+
+### Option 2: Run with code
+
+Note: this section is unnecessary if the project was run using the Docker image from option 1.
+
 
